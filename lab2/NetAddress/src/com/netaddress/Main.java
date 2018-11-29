@@ -19,9 +19,13 @@ public class Main {
         try {
                 ArrayList<Byte> ipAddress = ListUtil.getByteList(args[0]);
             ArrayList<Byte> subnetMask = ListUtil.getByteList(args[1]);
-
             if (ipAddress.size() != REQUIRED_IP_ADDRESS_LENGTH && subnetMask.size() != REQUIRED_SUBNET_MASK_LENGTH) {
                 throw new SizeLimitExceededException("Correct param format: 0-255.0-255.0-255.0-255");
+            }
+
+            if (!validateMask(subnetMask)) {
+              System.out.println("Wrong mask");
+              return;
             }
             ArrayList<Byte> netAddress = getNetAddress(ipAddress, subnetMask);
 
@@ -32,7 +36,7 @@ public class Main {
 
     }
 
-    public static ArrayList<Byte> getNetAddress(ArrayList<Byte> ipAddress, ArrayList<Byte> subnetMask) {
+    private static ArrayList<Byte> getNetAddress(ArrayList<Byte> ipAddress, ArrayList<Byte> subnetMask) {
         var netAddress = new ArrayList<Byte>();
         byte netAddressPart;
         for (int i = 0; i < ipAddress.size(); i++) {
@@ -41,5 +45,23 @@ public class Main {
         }
 
         return netAddress;
+    }
+
+    private static boolean validateMask(ArrayList<Byte> subnetMask) {
+        for (Byte b : subnetMask) {
+            String byteString = String.format("%8s", Integer.toBinaryString(b & 0xFF)).replace(' ', '0');
+            byteString = new StringBuilder(byteString).reverse().toString();
+            boolean firstOneFound = false;
+            for (int i = 0; i < byteString.length(); i++) {
+                if (firstOneFound && byteString.charAt(i) == '0') {
+                  return false;
+                }
+
+                if (byteString.charAt(i) == '1') {
+                  firstOneFound = true;
+                }
+            }
+        }
+        return true;
     }
 }

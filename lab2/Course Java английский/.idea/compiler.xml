@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="JAVA.Introduction-lab1-Linux_main" target="1.8" />
+      <module name="JAVA.Introduction-lab1-Linux_test" target="1.8" />
+      <module name="Java.OOP-lab2-task1_main" target="1.8" />
+      <module name="Java.OOP-lab2-task1_test" target="1.8" />
+      <module name="Java.OOP-lab2-task2_main" target="1.8" />
+      <module name="Java.OOP-lab2-task2_test" target="1.8" />
+      <module name="Java.OOP-lab2-task3_main" target="1.8" />
+      <module name="Java.OOP-lab2-task3_test" target="1.8" />
+      <module name="Java.OOP-lab2-task4_main" target="1.8" />
+      <module name="Java.OOP-lab2-task4_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

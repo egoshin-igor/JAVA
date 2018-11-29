@@ -1,0 +1,14 @@
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\interfaces\repositories\IWritableRepository.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\domainmodels\Basket.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\infrastructure\temp.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\domainmodels\Customer.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\domainmodels\PaymentMethod.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\domainmodels\Report.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\domainmodels\CashDesk.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\domainmodels\Discount.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\domainmodels\Product.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\interfaces\repositories\IReadableRepository.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\domainmodels\Supermarket.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\application\Main.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\domainmodels\Bill.java
+D:\Studies\JAVA\lab2\SupermarketSimilator\src\main\java\core\interfaces\temp.java

@@ -1,0 +1,325 @@
+
+D:\Studies\JAVA\SupermarketSimilator>mvn compile   && mvn exec:java -Dexec.mainClass="application.Main" 
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.java.learning:supermarket-similator:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 12, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------< com.java.learning:supermarket-similator >---------------
+[INFO] Building supermarket-similator 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ supermarket-similator ---
+[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ supermarket-similator ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1251, i.e. build is platform dependent!
+[INFO] Compiling 18 source files to D:\Studies\JAVA\SupermarketSimilator\target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.254 s
+[INFO] Finished at: 2018-12-01T07:23:01+03:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.java.learning:supermarket-similator:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 12, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------< com.java.learning:supermarket-similator >---------------
+[INFO] Building supermarket-similator 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ supermarket-similator ---
+08:00 Supermarket products have been formed: 
+Lays, price: 89, count: 22, isAcceptAge: false
+Lays, price: 89, count: 22, isAcceptAge: false
+Milk, price: 49, count: 222, isAcceptAge: false
+Bread, price: 19, count: 88, isAcceptAge: false
+Potato, price: 29, count: 800, isAcceptAge: false
+Bear, price: 135, count: 220, isAcceptAge: true
+Vodka, price: 300, count: 44, isAcceptAge: true
+08:00 Supermarket is opened
+08:12 Customer Katya came to supermarket
+08:15 Customer Katya picked up 685 units of Potato type = Weight
+08:17 Customer - Katya at the cash desk. Quantity to pay - 3378
+Customer Katya has left. Not enough money
+08:22 Customer Nadia came to supermarket
+08:22 Customer Nadia picked up 185 units of Bear type = Quantity
+08:25 Customer Nadia picked up 63 units of Bread type = Quantity
+08:26 Customer - Nadia at the cash desk. Quantity to pay - 4940
+08:29 Customer Egor came to supermarket
+08:31 Customer Egor picked up 211 units of Milk type = Quantity
+08:35 Customer - Nadia paid 4940 by HardCash
+08:35 Customer leave from supermarket
+08:38 Customer Egor picked up 496 units of Potato type = Weight
+08:52 Customer Ivan came to supermarket
+08:59 Customer Katya came to supermarket
+09:02 Customer Boris came to supermarket
+09:10 Customer Ivan picked up 223 units of Potato type = Weight
+09:16 Customer Katya came to supermarket
+09:19 Customer Katya picked up 19 units of Lays type = Quantity
+09:25 Customer Ivan picked up 114 units of Milk type = Quantity
+09:31 Customer Olga came to supermarket
+09:34 Customer Katya picked up 150 units of Bear type = Quantity
+09:39 Customer Boris came to supermarket
+09:40 Customer Ivan picked up 44 units of Bear type = Quantity
+09:40 Customer - Egor at the cash desk. Quantity to pay - 5780
+09:40 Customer - Egor paid 5780 by HardCash
+09:40 Customer leave from supermarket
+09:44 Customer Boris picked up 60 units of Bread type = Quantity
+09:52 Customer Nadia came to supermarket
+09:58 Customer Egor came to supermarket
+10:01 Customer Nadia picked up 16 units of Lays type = Quantity
+10:04 Customer Katya came to supermarket
+10:13 Customer Boris came to supermarket
+10:21 Customer Nadia picked up 119 units of Potato type = Weight
+10:26 Customer Egor picked up 57 units of Potato type = Weight
+10:34 Customer Boris came to supermarket
+10:37 Customer - Ivan at the cash desk. Quantity to pay - 27033
+10:42 Customer Egor came to supermarket
+10:45 Customer Boris picked up 2 units of Lays type = Quantity
+10:49 Customer Egor picked up 27 units of Bread type = Quantity
+11:11 Customer - Boris at the cash desk. Quantity to pay - 57
+11:18 Customer Ivan is a child. Checking products
+11:18 Product Bear not allowed for customer
+11:18 Customer - Ivan paid 12723 by Card
+11:18 Customer leave from supermarket
+11:19 Customer - Egor at the cash desk. Quantity to pay - 1730
+11:24 Customer Boris picked up 7 units of Vodka type = Quantity
+11:24 Customer - Nadia at the cash desk. Quantity to pay - 3155
+11:27 Customer - Boris paid 57 by Card
+11:27 Customer leave from supermarket
+11:34 Customer Boris picked up 13 units of Lays type = Quantity
+11:39 Customer - Egor paid 1730 by HardCash
+11:39 Customer leave from supermarket
+11:47 Customer - Katya at the cash desk. Quantity to pay - 4991
+11:52 Customer - Nadia paid 3155 by HardCash
+11:52 Customer leave from supermarket
+11:53 Customer Olga picked up 2 units of Vodka type = Quantity
+Customer Katya has left. Not enough money
+12:00 Customer Nadia came to supermarket
+12:03 Customer Katya picked up 93 units of Milk type = Quantity
+12:08 Customer Egor came to supermarket
+12:09 Customer Boris picked up 0 units of Vodka type = Quantity
+12:09 Customer - Boris at the cash desk. Quantity to pay - 1399
+12:13 Customer Nadia picked up 35 units of Bear type = Quantity
+12:21 Customer - Katya at the cash desk. Quantity to pay - 1019
+12:23 Customer - Boris paid 1399 by Card
+12:23 Customer leave from supermarket
+12:26 Customer Olga picked up 53 units of Potato type = Weight
+Customer Katya has left. Not enough money
+12:38 Customer - Egor at the cash desk. Quantity to pay - 596
+12:45 Customer - Egor paid 596 by HardCash
+12:45 Customer leave from supermarket
+12:50 Customer Katya picked up 9 units of Lays type = Quantity
+12:56 Customer Katya picked up 22 units of Bread type = Quantity
+13:10 Customer Boris picked up 1 units of Lays type = Quantity
+13:12 Customer Katya came to supermarket
+13:14 Customer Katya picked up 34 units of Milk type = Quantity
+13:15 Customer - Boris at the cash desk. Quantity to pay - 710
+13:16 Customer - Boris paid 710 by Card
+13:16 Customer leave from supermarket
+13:16 Customer Nadia came to supermarket
+13:16 Customer - Olga at the cash desk. Quantity to pay - 1617
+Customer Olga has left. Not enough money
+13:23 Customer Egor picked up 0 units of Lays type = Quantity
+13:28 Customer Olga came to supermarket
+13:31 Customer Nadia picked up 29 units of Bear type = Quantity
+13:41 Customer - Egor at the cash desk. Quantity to pay - 84
+13:41 Customer - Egor paid 84 by HardCash
+13:41 Customer leave from supermarket
+13:51 Customer Ivan came to supermarket
+13:54 Customer - Nadia at the cash desk. Quantity to pay - 1154
+14:03 Customer - Nadia paid 1154 by HardCash
+14:03 Customer leave from supermarket
+14:04 Customer Boris came to supermarket
+14:13 Customer Nadia picked up 12 units of Bread type = Quantity
+14:14 Customer Nadia came to supermarket
+14:15 Customer Boris picked up 12 units of Milk type = Quantity
+14:15 Customer - Nadia at the cash desk. Quantity to pay - 950
+14:18 Customer Boris picked up 5 units of Milk type = Quantity
+14:24 Customer Egor came to supermarket
+14:25 Customer Katya picked up 3 units of Bear type = Quantity
+14:26 Customer Katya came to supermarket
+14:31 Customer Katya picked up 0 units of Lays type = Quantity
+14:32 Customer - Nadia paid 950 by HardCash
+14:32 Customer leave from supermarket
+14:35 Customer Egor came to supermarket
+14:38 Customer Nadia picked up 0 units of Milk type = Quantity
+14:46 Customer Katya picked up 1 units of Bear type = Quantity
+14:49 Customer - Katya at the cash desk. Quantity to pay - 6372
+14:53 Customer Egor picked up 6 units of Bread type = Quantity
+14:53 Customer - Katya at the cash desk. Quantity to pay - 450
+14:59 Customer Katya came to supermarket
+15:02 Customer - Boris at the cash desk. Quantity to pay - 12683
+Customer Katya has left. Not enough money
+15:03 Customer Boris came to supermarket
+15:07 Customer - Boris at the cash desk. Quantity to pay - 1067
+15:12 Customer Katya picked up 3 units of Potato type = Weight
+15:16 Customer Boris picked up 2 units of Potato type = Weight
+15:23 Customer - Katya paid 450 by Bonus
+15:23 Customer leave from supermarket
+15:27 Customer Egor picked up 0 units of Potato type = Weight
+15:27 Customer - Egor at the cash desk. Quantity to pay - 56
+Customer Boris has left. Not enough money
+15:38 Customer - Boris at the cash desk. Quantity to pay - 29
+15:45 Customer - Boris paid 1067 by Card
+15:45 Customer leave from supermarket
+15:47 Customer Egor picked up 0 units of Bear type = Quantity
+15:49 Customer - Egor paid 56 by HardCash
+15:49 Customer leave from supermarket
+15:55 Customer - Boris paid 29 by Card
+15:55 Customer leave from supermarket
+16:00 Customer Ivan picked up 2 units of Bread type = Quantity
+16:03 Customer Nadia came to supermarket
+16:06 Customer Ivan picked up 1 units of Bread type = Quantity
+16:22 Customer Olga came to supermarket
+16:26 Customer - Katya at the cash desk. Quantity to pay - 1916
+16:29 Customer Nadia picked up 0 units of Bread type = Quantity
+Customer Katya has left. Not enough money
+16:40 Customer Olga picked up 36 units of Bear type = Quantity
+16:46 Customer Boris came to supermarket
+16:46 Customer Nadia picked up 18 units of Lays type = Quantity
+17:01 Customer Nadia picked up 10 units of Bear type = Quantity
+17:10 Customer - Olga at the cash desk. Quantity to pay - 24840
+Customer Olga has left. Not enough money
+17:14 Customer - Nadia at the cash desk. Quantity to pay - 3583
+17:20 Customer - Ivan at the cash desk. Quantity to pay - 95
+17:21 Customer - Nadia paid 3583 by HardCash
+17:21 Customer leave from supermarket
+17:23 Customer Egor picked up 37 units of Vodka type = Quantity
+17:26 Customer - Egor at the cash desk. Quantity to pay - 2232
+17:28 Customer Ivan is a child. Checking products
+17:28 Customer - Ivan paid 95 by Card
+17:28 Customer leave from supermarket
+17:29 Customer Boris picked up 20 units of Lays type = Quantity
+17:32 Customer - Egor paid 2232 by HardCash
+17:32 Customer leave from supermarket
+17:35 Customer Olga picked up 1 units of Lays type = Quantity
+17:37 Customer - Nadia at the cash desk. Quantity to pay - 337
+17:42 Customer Katya picked up 33 units of Milk type = Quantity
+17:44 Customer - Katya at the cash desk. Quantity to pay - 9168
+17:46 Customer - Nadia paid 337 by HardCash
+17:46 Customer leave from supermarket
+17:49 Customer Katya came to supermarket
+17:50 Customer Boris picked up 12 units of Lays type = Quantity
+17:54 Customer Katya picked up 510 units of Potato type = Weight
+17:57 Customer - Olga at the cash desk. Quantity to pay - 1687
+Customer Katya has left. Not enough money
+18:00 Customer Boris picked up 15 units of Vodka type = Quantity
+18:04 Customer Egor came to supermarket
+18:06 Customer - Boris at the cash desk. Quantity to pay - 7310
+Customer Olga has left. Not enough money
+18:09 Customer Egor picked up 0 units of Lays type = Quantity
+18:12 Customer - Katya at the cash desk. Quantity to pay - 8517
+18:15 Customer - Boris paid 7310 by Card
+18:15 Customer leave from supermarket
+18:17 Customer Egor picked up 30 units of Milk type = Quantity
+Customer Katya has left. Not enough money
+18:24 Customer Boris came to supermarket
+18:25 Customer Boris picked up 13 units of Milk type = Quantity
+18:25 Customer - Boris at the cash desk. Quantity to pay - 825
+18:28 Customer - Boris paid 825 by Card
+18:28 Customer leave from supermarket
+18:33 Customer Egor picked up 3 units of Bear type = Quantity
+18:41 Customer Egor came to supermarket
+18:41 Customer Egor picked up 9 units of Vodka type = Quantity
+18:43 Customer Ivan came to supermarket
+18:43 Customer Ivan picked up 6 units of Milk type = Quantity
+18:44 Customer - Ivan at the cash desk. Quantity to pay - 340
+18:51 Customer - Egor at the cash desk. Quantity to pay - 1710
+18:55 Customer - Egor at the cash desk. Quantity to pay - 1120
+18:57 Customer Ivan is a child. Checking products
+18:57 Customer - Ivan paid 340 by Card
+18:57 Customer leave from supermarket
+19:08 Customer - Egor paid 1710 by HardCash
+19:08 Customer leave from supermarket
+19:16 Customer - Egor paid 1120 by HardCash
+19:16 Customer leave from supermarket
+19:24 Customer Ivan came to supermarket
+19:30 Customer Ivan picked up 1 units of Lays type = Quantity
+19:31 Customer - Ivan at the cash desk. Quantity to pay - 977
+19:34 Customer Egor came to supermarket
+19:39 Customer Ivan is a child. Checking products
+19:39 Customer - Ivan paid 977 by Card
+19:39 Customer leave from supermarket
+19:49 Customer Olga came to supermarket
+19:49 Customer Olga picked up 4 units of Bread type = Quantity
+19:51 Customer Nadia came to supermarket
+19:57 Customer Katya came to supermarket
+20:02 Customer Egor picked up 1 units of Bread type = Quantity
+20:03 Customer - Olga at the cash desk. Quantity to pay - 1596
+Customer Olga has left. Not enough money
+20:06 Customer Nadia picked up 1 units of Bear type = Quantity
+20:09 Customer Boris came to supermarket
+20:18 Customer Ivan came to supermarket
+20:18 Customer Katya picked up 321 units of Potato type = Weight
+20:24 Customer Katya came to supermarket
+20:30 Customer Egor came to supermarket
+20:35 Customer Nadia came to supermarket
+20:38 Customer Katya picked up 0 units of Bear type = Quantity
+20:40 Customer Katya picked up 0 units of Bread type = Quantity
+20:40 Customer - Katya at the cash desk. Quantity to pay - 5570
+20:52 Customer Nadia picked up 5 units of Potato type = Weight
+Customer Katya has left. Not enough money
+20:59 Customer Olga came to supermarket
+21:00 Customer Egor picked up 0 units of Lays type = Quantity
+21:01 Customer - Katya at the cash desk. Quantity to pay - 135
+21:03 Customer - Katya paid 135 by Bonus
+21:03 Customer leave from supermarket
+21:04 Customer Ivan picked up 3 units of Vodka type = Quantity
+21:05 Customer Ivan came to supermarket
+21:07 Customer Boris picked up 2 units of Vodka type = Quantity
+21:11 Customer Nadia came to supermarket
+21:18 Customer Egor picked up 1 units of Vodka type = Quantity
+21:18 Customer - Nadia at the cash desk. Quantity to pay - 9073
+Customer Nadia has left. Not enough money
+21:25 Customer Olga came to supermarket
+21:36 Customer Ivan picked up 3 units of Potato type = Weight
+21:41 Customer - Egor at the cash desk. Quantity to pay - 139
+21:41 Customer - Egor paid 139 by HardCash
+21:41 Customer leave from supermarket
+21:50 Customer Katya came to supermarket
+21:50 Customer Olga picked up 1 units of Potato type = Weight
+21:57 Customer Nadia came to supermarket
+22:06 Customer Olga picked up 0 units of Potato type = Weight
+22:14 Customer Boris came to supermarket
+22:16 Customer Olga picked up 0 units of Vodka type = Quantity
+22:16 Customer - Olga at the cash desk. Quantity to pay - 88
+22:19 Customer Ivan came to supermarket
+22:21 Customer Nadia picked up 1 units of Milk type = Quantity
+22:26 Customer - Olga paid 88 by Bonus
+22:26 Customer leave from supermarket
+22:27 Customer Boris picked up 0 units of Milk type = Quantity
+22:36 Customer Katya came to supermarket
+22:39 Customer Ivan picked up 141 units of Milk type = Quantity
+22:44 Customer Egor came to supermarket
+22:45 Customer Egor picked up 0 units of Vodka type = Quantity
+22:59 Customer Egor picked up 0 units of Lays type = Quantity
+23:02 Supermarket is closed
+Bear, price: 150, units: 85, type = Quantity
+Bread, price: 19, units: 91, type = Quantity
+Milk, price: 49, units: 162, type = Quantity
+Potato, price: 33, units: 634, type = Weight
+Lays, price: 111, units: 50, type = Quantity
+Vodka, price: 300, units: 37, type = Quantity
+Total revenue: 55223
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.606 s
+[INFO] Finished at: 2018-12-01T07:23:05+03:00
+[INFO] ------------------------------------------------------------------------

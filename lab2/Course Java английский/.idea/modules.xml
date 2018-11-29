@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Course_Java_английский.iml" filepath="$PROJECT_DIR$/.idea/Course_Java_английский.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JAVA.Introduction/lab1/Linux/JAVA.Introduction-lab1-Linux.iml" filepath="$PROJECT_DIR$/.idea/modules/JAVA.Introduction/lab1/Linux/JAVA.Introduction-lab1-Linux.iml" group="JAVA.Introduction-lab1-Linux" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JAVA.Introduction/lab1/Linux/JAVA.Introduction-lab1-Linux_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JAVA.Introduction/lab1/Linux/JAVA.Introduction-lab1-Linux_main.iml" group="JAVA.Introduction-lab1-Linux" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JAVA.Introduction/lab1/Linux/JAVA.Introduction-lab1-Linux_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JAVA.Introduction/lab1/Linux/JAVA.Introduction-lab1-Linux_test.iml" group="JAVA.Introduction-lab1-Linux" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task1/Java.OOP-lab2-task1.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task1/Java.OOP-lab2-task1.iml" group="Java.OOP-lab2-task1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task1/Java.OOP-lab2-task1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task1/Java.OOP-lab2-task1_main.iml" group="Java.OOP-lab2-task1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task1/Java.OOP-lab2-task1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task1/Java.OOP-lab2-task1_test.iml" group="Java.OOP-lab2-task1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task2/Java.OOP-lab2-task2.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task2/Java.OOP-lab2-task2.iml" group="Java.OOP-lab2-task2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task2/Java.OOP-lab2-task2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task2/Java.OOP-lab2-task2_main.iml" group="Java.OOP-lab2-task2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task2/Java.OOP-lab2-task2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task2/Java.OOP-lab2-task2_test.iml" group="Java.OOP-lab2-task2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task3/Java.OOP-lab2-task3.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task3/Java.OOP-lab2-task3.iml" group="Java.OOP-lab2-task3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task3/Java.OOP-lab2-task3_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task3/Java.OOP-lab2-task3_main.iml" group="Java.OOP-lab2-task3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task3/Java.OOP-lab2-task3_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task3/Java.OOP-lab2-task3_test.iml" group="Java.OOP-lab2-task3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task4/Java.OOP-lab2-task4.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task4/Java.OOP-lab2-task4.iml" group="Java.OOP-lab2-task4" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task4/Java.OOP-lab2-task4_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task4/Java.OOP-lab2-task4_main.iml" group="Java.OOP-lab2-task4" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task4/Java.OOP-lab2-task4_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Java.OOP/lab2/task4/Java.OOP-lab2-task4_test.iml" group="Java.OOP-lab2-task4" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" group="util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" group="util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" group="util" />
+    </modules>
+  </component>
+</project>

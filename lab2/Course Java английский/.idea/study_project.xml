@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="course">
+        <RemoteCourse>
+          <option name="adaptive" value="false" />
+          <option name="additionalMaterialsUpdateDate" value="0" />
+          <option name="authors">
+            <list>
+              <StepicUser>
+                <option name="accessToken" value="" />
+                <option name="firstName" value="Евгений" />
+                <option name="guest" value="false" />
+                <option name="id" value="16240819" />
+                <option name="lastName" value="Курбатов" />
+                <option name="refreshToken" value="" />
+              </StepicUser>
+            </list>
+          </option>
+          <option name="compatible" value="true" />
+          <option name="courseMode" value="Study" />
+          <option name="courseType" value="PyCharm" />
+          <option name="customPresentableName" />
+          <option name="description" value="Данный курс предназначен изучения основ разработки  на Java 8 и смежных технологий и рассчитан на студентов IT-специальностей.&#10;&#10;Note: We’re sorry, but this course feels a little incomplete. If you are the owner of the course please &lt;a href=&quot;mailto:Tatiana.Vasilyeva@jetbrains.com&quot;&gt;get in touch with us&lt;/a&gt;, we would like to verify this with you; we think with improvement this can be listed as a featured course in the future." />
+          <option name="fromZip" value="false" />
+          <option name="id" value="33949" />
+          <option name="index" value="-1" />
+          <option name="instructors">
+            <list>
+              <option value="16240819" />
+            </list>
+          </option>
+          <option name="language" value="JAVA" />
+          <option name="languageCode" value="en" />
+          <option name="loadSolutions" value="true" />
+          <option name="name" value="Разработка на платформе Java" />
+          <option name="public" value="true" />
+          <option name="sectionIds">
+            <list />
+          </option>
+          <option name="stepikChangeStatus" value="Up to date" />
+          <option name="type" value="pycharm7 JAVA" />
+          <option name="updateDate" value="1540511223000" />
+          <option name="items">
+            <list>
+              <Section>
+                <option name="courseId" value="33949" />
+                <option name="customPresentableName" />
+                <option name="id" value="50128" />
+                <option name="index" value="1" />
+                <option name="name" value="JAVA.Introduction" />
+                <option name="position" value="1" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1540498533000" />
+                <option name="units">
+                  <list>
+                    <option value="156065" />
+                    <option value="122122" />
+                  </list>
+                </option>
+                <option name="items">
+                  <list>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="181446" />
+                      <option name="index" value="1" />
+                      <option name="name" value="lec1" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="1540498533000" />
+                      <option name="taskList">
+                        <list>
+                          <TheoryTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;h2&gt;&lt;a href=&quot;https://stepik.org/media/attachments/lesson/181446/lec1.pdf&quot; title=&quot;Link: https://stepik.org/media/attachments/lesson/181446/lec1.pdf&quot;&gt;https://stepik.org/media/attachments/lesson/181446/lec1.pdf&lt;/a&gt;﻿&lt;br&gt;&lt;/h2&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Theory" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="511876" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map />
+                            </option>
+                            <option name="testsText">
+                              <map />
+                            </option>
+                            <option name="updateDate" value="1540498532000" />
+                          </TheoryTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="156065" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="147863" />
+                      <option name="index" value="2" />
+                      <option name="name" value="lab1" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="1540498533000" />
+                      <option name="taskList">
+                        <list>
+                          <TheoryTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="This is linux task." />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Linux" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="460898" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="// this is a linux task. You can use this editor as a playground&#10;&#10;class Task {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map />
+                            </option>
+                            <option name="updateDate" value="1540494534000" />
+                          </TheoryTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="122122" />
+                    </Lesson>
+                  </list>
+                </option>
+              </Section>
+              <Section>
+                <option name="courseId" value="33949" />
+                <option name="customPresentableName" />
+                <option name="id" value="68337" />
+                <option name="index" value="2" />
+                <option name="name" value="Java.OOP" />
+                <option name="position" value="2" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1540511223000" />
+                <option name="units">
+                  <list>
+                    <option value="156070" />
+                    <option value="156071" />
+                  </list>
+                </option>
+                <option name="items">
+                  <list>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="181451" />
+                      <option name="index" value="1" />
+                      <option name="name" value="lec2" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="1540498556000" />
+                      <option name="taskList">
+                        <list>
+                          <TheoryTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;h2&gt;﻿&lt;a href=&quot;https://stepik.org/media/attachments/lesson/181451/lec2.pdf&quot;&gt;https://stepik.org/media/attachments/lesson/181451/lec2.pdf&lt;/a&gt;&lt;/h2&gt;&lt;a href=&quot;https://stepik.org/media/attachments/lesson/181451/lec2.pdf&quot;&gt;&lt;/a&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Theory" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="511883" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map />
+                            </option>
+                            <option name="testsText">
+                              <map />
+                            </option>
+                            <option name="updateDate" value="1540498556000" />
+                          </TheoryTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="156070" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="181452" />
+                      <option name="index" value="2" />
+                      <option name="name" value="lab2" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="1540511223000" />
+                      <option name="taskList">
+                        <list>
+                          <TheoryTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;h1&gt;&lt;b&gt;Лабораторная работа №2&lt;br&gt;&lt;/b&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&#10;&#10;&lt;h2&gt;Настройка окружения для разработки и тестирования&lt;/h2&gt;&lt;div&gt;1. Скачать и установить &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.jetbrains.com/education/download/#section=idea&quot;&gt;IntelliJ IDEA Community with EduTools plugin&lt;/a&gt; или установить &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.jetbrains.com/help/education/install-edutools-plugin.html?section=IntelliJ+IDEA&quot;&gt;EduTools Plugin&lt;/a&gt;, если IntelliJ IDEA уже установлена.&lt;/div&gt;&lt;br&gt;&lt;div&gt;2. Присоедениться к stepic-курсу в IntelliJ IDEA.  &#10;&#10;Welcome Screen&#10;&#10;-&amp;gt; Learn -&amp;gt; Browse Courses или File Menu  -&amp;gt;&#10;&#10; Learn -&amp;gt; Browse Courses, затем выбрать из списка  &quot;Разработка на платформе Java&quot; &#10;&#10;. При первом запуске потребуется залогиниться на Stepik.&lt;/div&gt;&lt;div&gt;&lt;img alt=&quot;&quot; src=&quot;https://ucarecdn.com/c9caeffc-f534-4449-8d27-55b6fdd02527/&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. После загрузки курса слева в IDE появится план курса с заданиями. При выборе задачи справа появиться ее описание. Внизу также будет кнопка &quot;Check&quot; , после нажатия на которую решение отправляется на сервер Stepic'а для проверки. Результат с деталями можно увидеть под кнопкой.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt=&quot;&quot; src=&quot;https://ucarecdn.com/06ee3aaf-37db-4439-b05d-b0b72e4013d9/&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. После успешной попытки можно увидеть что результат отражен на сайте Stepic.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;img alt=&quot;&quot; src=&quot;https://ucarecdn.com/ed3b9235-0469-4c55-b5b2-bbb34264add2/&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5. Во время решения заданий &lt;b&gt;крайне рекомендуется&lt;/b&gt; делать автоматическую инспекцию вашего кода и исправлять найденные проблемы. Сделать это можно следующим образом Контекстное меню (правой кнопкой по файлу) -&amp;gt; Analyze -&amp;gt; Inspect Code или через пункт меню &#10;&#10;Analyze -&amp;gt; Inspect Code. После появится панель Inspection Result c найденными проблема по категориям.&lt;/div&gt;&lt;div&gt;&lt;img alt=&quot;&quot; src=&quot;https://ucarecdn.com/8325997c-f135-4aa0-90b8-198a7975828b/&quot; title=&quot;Image: https://ucarecdn.com/8325997c-f135-4aa0-90b8-198a7975828b/&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;wysiwyg-color-red&quot;&gt;&lt;b&gt;6. Нельзя использовать System.exit() иначе будет &quot;Wrong answer&quot;. Если кидается не обработанное исключение, то так ﻿же будет &#10;&#10; &quot;Wrong answer&quot;.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h2&gt;Дополнительные ссылки&lt;/h2&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Для выполнения заданий рекомендуется скачать &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.jetbrains.com/idea/download/&quot;&gt;IDE Intellij Idea Community Edition&lt;/a&gt;.&lt;div&gt;Документация по IDE: &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.jetbrains.com/help/idea/discover-intellij-idea.html&quot;&gt;https://www.jetbrains.com/help/idea/discover-intellij-idea.html&lt;/a&gt;&lt;/div&gt;&lt;div&gt;IDE Features Trainer: &lt;a rel=&quot;nofollow&quot; href=&quot;https://plugins.jetbrains.com/plugin/8554-ide-features-trainer&quot;&gt;https://plugins.jetbrains.com/plugin/8554-ide-features-trainer&lt;/a&gt;&lt;/div&gt;&lt;div&gt;Инструкции по EduTools Plugin &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.jetbrains.com/help/education/educational-products.html?section=Java&quot;&gt;https://www.jetbrains.com/help/education/educational-products.html?section=Java&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&#10;&#10;&lt;br&gt;&lt;/div&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Theory" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="511884" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map />
+                            </option>
+                            <option name="testsText">
+                              <map />
+                            </option>
+                            <option name="updateDate" value="1540511222000" />
+                          </TheoryTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;b&gt;1.&lt;b&gt;Определение адреса сети&lt;/b&gt;&#10;&#10;  &lt;span class=&quot;wysiwyg-color-blue&quot;&gt;[10 баллов]&lt;/span&gt;&lt;/b&gt; &amp;nbsp;Даны IP-адрес и маска подсети, необходимо вычислить&#10;адрес сети — реализуйте программу GetNetAddress, которая должена вычислять и возвращать адрес сети согласно&#10;переданным параметрам (IP-адрес и маска подсети). Используйте операцию поразрядной конъюнкции (логическое И)&#10;&lt;br&gt;&#10;Пример:&lt;br&gt;&#10;IP-адрес: 11000000 10101000 00000001 00000010 (192.168.1.2)&lt;br&gt;&#10;Маска подсети: 11111111 11111111 11111110 00000000 (255.255.254.0)&lt;br&gt;&#10;Адрес сети: 11000000 10101000 00000000 00000000 (192.168.0.0)&lt;br&gt;&#10;Программа на вход должна принимать два аргумента IP-адрес и Маску подсети.&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 1:&lt;/b&gt;&#10;&lt;pre&gt;192.168.1.2 255.255.254.0&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 1:&lt;/b&gt;&#10;&lt;pre&gt;192.168.0.0&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 2:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;192.168.1.2&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 2:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;GetNetAddress &amp;lt;IP address&amp;gt; &amp;lt;Subnet mask&amp;gt;&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 3:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;111.168.1.abc. 255.255.254.0&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 3:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;Wrong ip address&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 4:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;192.168.1.2 127.0.0.0&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 4:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;Wrong mask&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Для печати на консоль с завершением строки используйте &lt;code&gt;System.out.println(&quot;Some string&quot;) или System.out.print(&quot;Some string\r\n&quot;)&lt;/code&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Валидация &lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BA%D0%B0_%D0%BF%D0%BE%D0%B4%D1%81%D0%B5%D1%82%D0%B8#%D0%9C%D0%B0%D1%81%D0%BA%D0%B8_%D0%BF%D1%80%D0%B8_%D0%B1%D0%B5%D1%81%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2%D0%BE%D0%B9_%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8_(CIDR)&quot;&gt;маски подсети&lt;/a&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="2" />
+                            <option name="name" value="task1" />
+                            <option name="status" value="Solved" />
+                            <option name="stepId" value="520893" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/GetNetAddress.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="name" value="src/GetNetAddress.java" />
+                                      <option name="text" value="class GetNetAddress {&#10;  public static void main(String[] args) {&#10;    //put your task here&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/list/util/ListUtil.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="name" value="src/list/util/ListUtil.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/BaseIOValidationTest.java" value="import org.junit.After;&#13;&#10;import org.junit.Before;&#13;&#10;import org.junit.BeforeClass;&#13;&#10;&#13;&#10;import java.io.ByteArrayOutputStream;&#13;&#10;import java.io.PrintStream;&#13;&#10;import java.security.Permission;&#13;&#10;&#13;&#10;public abstract class BaseIOValidationTest {&#13;&#10;  protected ByteArrayOutputStream output = new ByteArrayOutputStream();&#13;&#10;  private final PrintStream old = System.out;&#13;&#10;&#13;&#10;  @BeforeClass&#13;&#10;  public static void init() {&#13;&#10;    //Before running the external Command&#13;&#10;    MySecurityManager secManager = new MySecurityManager();&#13;&#10;    System.setSecurityManager(secManager);&#13;&#10;  }&#13;&#10;&#13;&#10;  @Before&#13;&#10;  public void setUp() {&#13;&#10;    resetOutput();&#13;&#10;  }&#13;&#10;&#13;&#10;  @After&#13;&#10;  public void tearDown() {&#13;&#10;    System.out.flush();&#13;&#10;    System.setOut(old);&#13;&#10;  }&#13;&#10;&#13;&#10;  protected void resetOutput() {&#13;&#10;    output = new ByteArrayOutputStream();&#13;&#10;    System.setOut(new PrintStream(output));&#13;&#10;  }&#13;&#10;&#13;&#10;  public static class TestMsg {&#13;&#10;    private int testId;&#13;&#10;    private String input;&#13;&#10;    private String details;&#13;&#10;&#13;&#10;    private TestMsg(int testId, String input, String details) {&#13;&#10;      this.testId = testId;&#13;&#10;      this.input = input;&#13;&#10;      this.details = details;&#13;&#10;    }&#13;&#10;&#13;&#10;    public static TestMsg of(int testId, String input, String details) {&#13;&#10;      return new TestMsg(testId, input, details);&#13;&#10;    }&#13;&#10;&#13;&#10;    public static TestMsg of(int testId, String[] args, String details) {&#13;&#10;      return new TestMsg(testId, String.join(&quot; &quot;, args), details);&#13;&#10;    }&#13;&#10;&#13;&#10;    @Override&#13;&#10;    public String toString() {&#13;&#10;      return String.format(&#13;&#10;              &quot;Test #%s. Input:\n&quot; +&#13;&#10;                      &quot;%s\n&quot; +&#13;&#10;                      &quot;Details: %s\n&quot;,&#13;&#10;              testId,&#13;&#10;              input,&#13;&#10;              details&#13;&#10;      );&#13;&#10;    }&#13;&#10;  }&#13;&#10;&#13;&#10;  static class MySecurityManager extends SecurityManager {&#13;&#10;    @Override&#13;&#10;    public void checkExit(int status) {&#13;&#10;      throw new SecurityException();&#13;&#10;    }&#13;&#10;&#13;&#10;    @Override&#13;&#10;    public void checkPermission(Permission perm) {&#13;&#10;      // Allow other activities by default&#13;&#10;    }&#13;&#10;  }&#13;&#10;&#13;&#10;&#13;&#10;}&#13;&#10;" />
+                                <entry key="test/GetNetAddressTest.java" value="import org.junit.Test;&#10;&#10;import java.security.Permission;&#10;&#10;import static org.junit.Assert.assertEquals;&#10;&#10;public class GetNetAddressTest extends BaseIOValidationTest {&#10;&#10;  private static final String MSG_ARGUMENTS_NUM_INCORRECT = &quot;If incorrect number number of arguments usage info should be printed&quot;;&#10;  private static final String WRONG_IP_ADDRESS = &quot;Wrong ip address&quot;;&#10;  private static final String WRONG_MASK = &quot;Wrong mask&quot;;&#10;  private static final String WRONG_OUTPUT = &quot;Wrong output&quot;;&#10;&#10;  private static final String USAGE_INFO = &quot;GetNetAddress &lt;IP address&gt; &lt;Subnet mask&gt;\r\n&quot;;&#10;&#10;  @Test&#10;  public void testNoArguments() {&#10;    GetNetAddress.main(new String[]{});&#10;    assertEquals(TestMsg.of(1, &quot;&quot;, MSG_ARGUMENTS_NUM_INCORRECT).toString(), USAGE_INFO, output.toString());&#10;  }&#10;&#10;  @Test&#10;  public void testOneArgument() {&#10;    String[] args = {&quot;192.168.1.2&quot;};&#10;    GetNetAddress.main(args);&#10;    assertEquals(TestMsg.of(2, args, MSG_ARGUMENTS_NUM_INCORRECT).toString(), USAGE_INFO, output.toString());&#10;  }&#10;&#10;  @Test&#10;  public void testThreeArgument() {&#10;    String[] args = {&quot;192.168.1.2&quot;, &quot;255.255.254.0&quot;, &quot;192.168.0.0&quot;};&#10;    GetNetAddress.main(args);&#10;    assertEquals(TestMsg.of(3, args, MSG_ARGUMENTS_NUM_INCORRECT).toString(), USAGE_INFO, output.toString());&#10;  }&#10;&#10;  @Test&#10;  public void testWrongIpArgument() {&#10;    String[][] argsSet = {&#10;            {&quot;256.168.1.2&quot;, &quot;255.255.254.0&quot;},&#10;            {&quot;999999999999999999999.168.1.2&quot;, &quot;255.255.254.0&quot;},&#10;            {&quot;255.-1.1.2&quot;, &quot;255.255.254.0&quot;},&#10;            {&quot;111.168.1&quot;, &quot;255.255.254.0&quot;},&#10;            {&quot;111.168.1..&quot;, &quot;255.255.254.0&quot;},&#10;            {&quot;111.168.1.abc.&quot;, &quot;255.255.254.0&quot;},&#10;            {&quot;111.-168.1.2.&quot;, &quot;255.255.254.0&quot;}&#10;    };&#10;&#10;    for (String[] args : argsSet) {&#10;      GetNetAddress.main(args);&#10;      assertEquals(TestMsg.of(4, args, WRONG_IP_ADDRESS).toString(), WRONG_IP_ADDRESS + &quot;\r\n&quot; , output.toString());&#10;      resetOutput();&#10;    }&#10;  }&#10;&#10;  @Test&#10;  public void testWrongMaskArgument() {&#10;    String[][] argsSet = {&#10;            {&quot;255.255.254.0&quot;, &quot;256.255.255.255&quot;},&#10;            {&quot;255.255.254.0&quot;, &quot;999999999999999999999.255.255.255&quot;},&#10;            {&quot;255.255.254.0&quot;, &quot;255.-0.0.0&quot;},&#10;            {&quot;255.255.254.0&quot;, &quot;255.255.255&quot;},&#10;            {&quot;255.255.254.0&quot;, &quot;255.255.255..&quot; },&#10;            {&quot;255.255.254.0&quot;, &quot;255.255.255.abc&quot;},&#10;            {&quot;255.255.254.0&quot;, &quot;255.255.255.255.&quot;},&#10;            {&quot;255.255.254.0&quot;, &quot;127.0.0.0&quot;},&#10;            {&quot;255.255.254.0&quot;, &quot;255.255.255.253&quot;},&#10;            {&quot;255.255.254.0&quot;, &quot;255.255.190.000&quot;}&#10;    };&#10;&#10;    for (String[] args : argsSet) {&#10;      GetNetAddress.main(args);&#10;      assertEquals(TestMsg.of(5, args, WRONG_MASK).toString(), WRONG_MASK + &quot;\r\n&quot;, output.toString());&#10;      resetOutput();&#10;    }&#10;  }&#10;&#10;  @Test&#10;  public void testSolution() {&#10;    String[][] argsAndResultSet = {&#10;            {&quot;192.168.1.2&quot;, &quot;255.255.254.0&quot;, &quot;192.168.0.0&quot;},&#10;            {&quot;192.0.2.130&quot;, &quot;255.255.255.0&quot;, &quot;192.0.2.0&quot;},&#10;            {&quot;192.0.2.130&quot;, &quot;255.255.255.192&quot;, &quot;192.0.2.128&quot;},&#10;            {&quot;192.168.0.1&quot;, &quot;255.255.255.0&quot;, &quot;192.168.0.0&quot;},&#10;            {&quot;200.200.200.200&quot;, &quot;128.0.0.0&quot;, &quot;128.0.0.0&quot;},&#10;            {&quot;0.0.0.0&quot;, &quot;255.255.255.128&quot;, &quot;0.0.0.0&quot;},&#10;            {&quot;91.174.148.74&quot;, &quot;255.255.192.0&quot;, &quot;91.174.128.0&quot;}&#10;    };&#10;&#10;    for (String[] argsRes : argsAndResultSet) {&#10;      String[] args = {argsRes[0], argsRes[1]};&#10;      GetNetAddress.main(args);&#10;      assertEquals(TestMsg.of(6, args, WRONG_OUTPUT).toString(), argsRes[2] + &quot;\r\n&quot;, output.toString());&#10;      resetOutput();&#10;    }&#10;  }&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="1540510904000" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;b&gt;2.&lt;b&gt;Шифр Цезаря&lt;/b&gt;&#10;&#10;  &lt;span class=&quot;wysiwyg-color-blue&quot;&gt;[5 баллов]&lt;/span&gt;&lt;/b&gt; &amp;nbsp;Реализуйте шифр Цезаря (сдвиг вправо по алфавиту на key&#10;букв) Программа на вход должна принимать три аргумента:&#10;&lt;ul&gt;&#10;  &lt;li&gt;&#10;&#10;    &lt;b&gt;&lt;/b&gt;режим работы: -e – кодировнаие, &amp;nbsp;-d – декодирование&lt;b&gt;&#10;  &lt;/b&gt;&#10;    &lt;br&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;b&gt;&#10;&#10;    &lt;b&gt;&lt;/b&gt;&lt;/b&gt;ключ шифрования/дешифрования – целое число&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;&#10;    &lt;b&gt;&lt;/b&gt;строка для шифрования/дешифрования&lt;b&gt;&lt;/b&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 1:&lt;/b&gt;&#10;&lt;pre&gt;-e 1 dwwdfndwrqfh&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 1:&lt;/b&gt;&#10;&lt;pre&gt;exxegoexsrgi&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 2:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;-d 1 exxegoexsrgi&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 2:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;dwwdfndwrqfh&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 3:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;-x 1 dwwdfndwrqfh&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 3:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;Wrong arguments&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 4:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;-d 1&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 4:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;Wrong arguments&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 5:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;-e 108 abzyABZY&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 5:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;efdcEFDC&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="3" />
+                            <option name="name" value="task2" />
+                            <option name="status" value="Solved" />
+                            <option name="stepId" value="520922" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/CaesarCipher.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="name" value="src/CaesarCipher.java" />
+                                      <option name="text" value="class CaesarCipher {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/Cipher.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="name" value="src/Cipher.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/CipherMode.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/CipherMode.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/BaseIOValidationTest.java" value="import org.junit.After;&#13;&#10;import org.junit.Before;&#13;&#10;import org.junit.BeforeClass;&#13;&#10;&#13;&#10;import java.io.ByteArrayOutputStream;&#13;&#10;import java.io.PrintStream;&#13;&#10;import java.security.Permission;&#13;&#10;&#13;&#10;public abstract class BaseIOValidationTest {&#13;&#10;  protected ByteArrayOutputStream output = new ByteArrayOutputStream();&#13;&#10;  private final PrintStream old = System.out;&#13;&#10;&#13;&#10;  @BeforeClass&#13;&#10;  public static void init() {&#13;&#10;    //Before running the external Command&#13;&#10;    MySecurityManager secManager = new MySecurityManager();&#13;&#10;    System.setSecurityManager(secManager);&#13;&#10;  }&#13;&#10;&#13;&#10;  @Before&#13;&#10;  public void setUp() {&#13;&#10;    resetOutput();&#13;&#10;  }&#13;&#10;&#13;&#10;  @After&#13;&#10;  public void tearDown() {&#13;&#10;    System.out.flush();&#13;&#10;    System.setOut(old);&#13;&#10;  }&#13;&#10;&#13;&#10;  protected void resetOutput() {&#13;&#10;    output = new ByteArrayOutputStream();&#13;&#10;    System.setOut(new PrintStream(output));&#13;&#10;  }&#13;&#10;&#13;&#10;  public static class TestMsg {&#13;&#10;    private int testId;&#13;&#10;    private String input;&#13;&#10;    private String details;&#13;&#10;&#13;&#10;    private TestMsg(int testId, String input, String details) {&#13;&#10;      this.testId = testId;&#13;&#10;      this.input = input;&#13;&#10;      this.details = details;&#13;&#10;    }&#13;&#10;&#13;&#10;    public static TestMsg of(int testId, String input, String details) {&#13;&#10;      return new TestMsg(testId, input, details);&#13;&#10;    }&#13;&#10;&#13;&#10;    public static TestMsg of(int testId, String[] args, String details) {&#13;&#10;      return new TestMsg(testId, String.join(&quot; &quot;, args), details);&#13;&#10;    }&#13;&#10;&#13;&#10;    @Override&#13;&#10;    public String toString() {&#13;&#10;      return String.format(&#13;&#10;              &quot;Test #%s. Input:\n&quot; +&#13;&#10;                      &quot;%s\n&quot; +&#13;&#10;                      &quot;Details: %s\n&quot;,&#13;&#10;              testId,&#13;&#10;              input,&#13;&#10;              details&#13;&#10;      );&#13;&#10;    }&#13;&#10;  }&#13;&#10;&#13;&#10;  static class MySecurityManager extends SecurityManager {&#13;&#10;    @Override&#13;&#10;    public void checkExit(int status) {&#13;&#10;      throw new SecurityException();&#13;&#10;    }&#13;&#10;&#13;&#10;    @Override&#13;&#10;    public void checkPermission(Permission perm) {&#13;&#10;      // Allow other activities by default&#13;&#10;    }&#13;&#10;  }&#13;&#10;&#13;&#10;&#13;&#10;}&#13;&#10;" />
+                                <entry key="test/CaesarCipherTest.java" value="import org.junit.Test;&#10;&#10;import static org.junit.Assert.assertEquals;&#10;&#10;public class CaesarCipherTest extends BaseIOValidationTest {&#10;&#10;  private static final String WRONG_ARGUMENTS = &quot;Wrong arguments&quot;;&#10;  private static final String WRONG_OUTPUT = &quot;Wrong output&quot;;&#10;&#10;  @Test&#10;  public void testWrongArguments() {&#10;    String[] argsSet ={&#10;      &quot;&quot;,&#10;      &quot;1 2 3 4&quot;,&#10;      &quot;-x 3 abc&quot;,&#10;      &quot;-e 999999999999999999999 abc&quot;&#10;    };&#10;&#10;    for (String args : argsSet) {&#10;      CaesarCipher.main(args.split(&quot; &quot;));&#10;      assertEquals(TestMsg.of(1, args, WRONG_ARGUMENTS).toString(), WRONG_ARGUMENTS + &quot;\r\n&quot;, output.toString());&#10;      resetOutput();&#10;    }&#10;  }&#10;&#10;  @Test&#10;  public void testSolution() {&#10;    String[][] argsResSet = {&#10;      {&quot;-e 1 dwwdfndwrqfh&quot;, &quot;exxegoexsrgi&quot;},&#10;      {&quot;-d 1 exxegoexsrgi&quot;, &quot;dwwdfndwrqfh&quot;},&#10;      {&quot;-e 35 abcdefghgklzABCDEFGHGKLZ&quot;, &quot;jklmnopqptuiJKLMNOPQPTUI&quot;},&#10;      {&quot;-d 35 jklmnopqptuiJKLMNOPQPTUI&quot;, &quot;abcdefghgklzABCDEFGHGKLZ&quot;},&#10;      {&quot;-d 35 abcdefghgklzABCDEFGHGKLZ&quot;, &quot;rstuvwxyxbcqRSTUVWXYXBCQ&quot;},&#10;      {&quot;-d 108 abzyABZY&quot;, &quot;wxvuWXVU&quot;},&#10;      {&quot;-e 108 abzyABZY&quot;, &quot;efdcEFDC&quot;},&#10;      {&quot;-e 3 IfinishedtestingYahooooo&quot;, &quot;LilqlvkhgwhvwlqjBdkrrrrr&quot;},&#10;      {&quot;-d 3 LilqlvkhgwhvwlqjBdkrrrrr&quot;, &quot;IfinishedtestingYahooooo&quot;},&#10;      {&quot;-e 260000000 abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz&quot;, &quot;abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz&quot;},&#10;    };&#10;&#10;    for (String[] argsRes : argsResSet) {&#10;      CaesarCipher.main(argsRes[0].split(&quot; &quot;));&#10;      assertEquals(TestMsg.of(2, argsRes, WRONG_OUTPUT).toString(), argsRes[1] + &quot;\r\n&quot;, output.toString());&#10;      resetOutput();&#10;    }&#10;  }&#10;&#10;&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="1540510919000" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;b&gt;3.&lt;b&gt;Генератор паролей&lt;/b&gt;&#10;&#10;  &lt;span class=&quot;wysiwyg-color-blue&quot;&gt;[5 баллов]&lt;/span&gt;&lt;/b&gt; &amp;nbsp;Реализуйте программу рандомной генерации паролей.&#10;Программа на вход должна принимать два аргумента:&#10;&lt;ul&gt;&#10;  &lt;li&gt;&#10;    длина пароля – целое число&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    набор символов, из которых случайным образом генерируется пароль&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 1:&lt;/b&gt;&#10;&lt;pre&gt;5 abdefg123456_&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 1:&lt;/b&gt;&#10;&lt;pre&gt;1_d3a&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 2:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;10&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 2:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;Wrong arguments&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 3:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;-5 abdefg123456_&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 3:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;Wrong arguments&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Input 4:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;0 abdefg123456_&lt;/pre&gt;&#10;&lt;b&gt;Sample Output 4:&lt;/b&gt;&lt;br&gt;&#10;&lt;pre&gt;Wrong arguments&lt;/pre&gt;&#10;&#10;&lt;hr&gt;&#10;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="4" />
+                            <option name="name" value="task3" />
+                            <option name="status" value="Solved" />
+                            <option name="stepId" value="520923" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/PGenerator.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/PGenerator.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/PasswordGenerator.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="name" value="src/PasswordGenerator.java" />
+                                      <option name="text" value="class PasswordGenerator {&#10;  public static void main(String[] args) {&#10;    //put your task here&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/BaseIOValidationTest.java" value="import org.junit.After;&#13;&#10;import org.junit.Before;&#13;&#10;import org.junit.BeforeClass;&#13;&#10;&#13;&#10;import java.io.ByteArrayOutputStream;&#13;&#10;import java.io.PrintStream;&#13;&#10;import java.security.Permission;&#13;&#10;&#13;&#10;public abstract class BaseIOValidationTest {&#13;&#10;  protected ByteArrayOutputStream output = new ByteArrayOutputStream();&#13;&#10;  private final PrintStream old = System.out;&#13;&#10;&#13;&#10;  @BeforeClass&#13;&#10;  public static void init() {&#13;&#10;    //Before running the external Command&#13;&#10;    MySecurityManager secManager = new MySecurityManager();&#13;&#10;    System.setSecurityManager(secManager);&#13;&#10;  }&#13;&#10;&#13;&#10;  @Before&#13;&#10;  public void setUp() {&#13;&#10;    resetOutput();&#13;&#10;  }&#13;&#10;&#13;&#10;  @After&#13;&#10;  public void tearDown() {&#13;&#10;    System.out.flush();&#13;&#10;    System.setOut(old);&#13;&#10;  }&#13;&#10;&#13;&#10;  protected void resetOutput() {&#13;&#10;    output = new ByteArrayOutputStream();&#13;&#10;    System.setOut(new PrintStream(output));&#13;&#10;  }&#13;&#10;&#13;&#10;  public static class TestMsg {&#13;&#10;    private int testId;&#13;&#10;    private String input;&#13;&#10;    private String details;&#13;&#10;&#13;&#10;    private TestMsg(int testId, String input, String details) {&#13;&#10;      this.testId = testId;&#13;&#10;      this.input = input;&#13;&#10;      this.details = details;&#13;&#10;    }&#13;&#10;&#13;&#10;    public static TestMsg of(int testId, String input, String details) {&#13;&#10;      return new TestMsg(testId, input, details);&#13;&#10;    }&#13;&#10;&#13;&#10;    public static TestMsg of(int testId, String[] args, String details) {&#13;&#10;      return new TestMsg(testId, String.join(&quot; &quot;, args), details);&#13;&#10;    }&#13;&#10;&#13;&#10;    @Override&#13;&#10;    public String toString() {&#13;&#10;      return String.format(&#13;&#10;              &quot;Test #%s. Input:\n&quot; +&#13;&#10;                      &quot;%s\n&quot; +&#13;&#10;                      &quot;Details: %s\n&quot;,&#13;&#10;              testId,&#13;&#10;              input,&#13;&#10;              details&#13;&#10;      );&#13;&#10;    }&#13;&#10;  }&#13;&#10;&#13;&#10;  static class MySecurityManager extends SecurityManager {&#13;&#10;    @Override&#13;&#10;    public void checkExit(int status) {&#13;&#10;      throw new SecurityException();&#13;&#10;    }&#13;&#10;&#13;&#10;    @Override&#13;&#10;    public void checkPermission(Permission perm) {&#13;&#10;      // Allow other activities by default&#13;&#10;    }&#13;&#10;  }&#13;&#10;&#13;&#10;&#13;&#10;}&#13;&#10;" />
+                                <entry key="test/PasswordGeneratorTest.java" value="import org.junit.Test;&#10;&#10;import java.util.HashSet;&#10;import java.util.Set;&#10;&#10;import static org.junit.Assert.assertEquals;&#10;&#10;public class PasswordGeneratorTest extends BaseIOValidationTest {&#10;&#10;  private static final String WRONG_ARGUMENTS = &quot;Wrong arguments&quot;;&#10;  private static final String WRONG_OUTPUT = &quot;Wrong output&quot;;&#10;&#10;  @Test&#10;  public void testWrongArguments() {&#10;    String[] argsSet = {&#10;      &quot;&quot;,&#10;      &quot;1 2 3&quot;,&#10;      &quot;10&quot;,&#10;      &quot;-5 abdefg123456_&quot;,&#10;      &quot;999999999999999999999 afdsfsafd23421412&quot;&#10;    };&#10;&#10;    for (String args : argsSet) {&#10;      PasswordGenerator.main(args.split(&quot; &quot;));&#10;      assertEquals(TestMsg.of(1, args, WRONG_ARGUMENTS).toString(), WRONG_ARGUMENTS + &quot;\r\n&quot;, output.toString());&#10;      resetOutput();&#10;    }&#10;  }&#10;&#10;  @Test&#10;  public void testSolution1() {&#10;    Set&lt;String&gt; uniquePasswords = new HashSet&lt;&gt;();&#10;    for (int i = 0; i &lt; 10; i++) {&#10;      PasswordGenerator.main(new String[]{&quot;100&quot;, &quot;afdsfsafd2342141asdfcdhasbgghgxty23u4f 1rcx 32671xxy2319crweaecfljsgyc4[]{}[d]sa2&quot;});&#10;      uniquePasswords.add(output.toString());&#10;      resetOutput();&#10;    }&#10;    assertEquals(&quot;Test #2. Weak randomization&quot;, 10, uniquePasswords.size());&#10;  }&#10;&#10;  @Test&#10;  public void testSolution2() {&#10;    String[][] argsResSet = {&#10;      {&quot;5 a&quot;, &quot;aaaaa&quot;},&#10;      {&quot;5 aaa&quot;, &quot;aaaaa&quot;}&#10;    };&#10;&#10;    for (String[] argsRes : argsResSet) {&#10;      PasswordGenerator.main(argsRes[0].split(&quot; &quot;));&#10;      assertEquals(TestMsg.of(2, argsRes, WRONG_OUTPUT).toString(), argsRes[1] + &quot;\r\n&quot;, output.toString());&#10;      resetOutput();&#10;    }&#10;  }&#10;&#10;  @Test&#10;  public void testSolution3() {&#10;    String[] args = {&quot;12&quot;, &quot;abc&quot;};&#10;    PasswordGenerator.main(args);&#10;    assertEquals(TestMsg.of(3, args, &quot;Password length mismatch&quot;).toString(), 12, output.toString().trim().length());&#10;  }&#10;&#10;  @Test&#10;  public void testSolution4() {&#10;    String[] args = {&quot;1&quot;, &quot;abc&quot;};&#10;    PasswordGenerator.main(args);&#10;    assertEquals(TestMsg.of(4, args, &quot;Password length mismatch&quot;).toString(), 1, output.toString().trim().length());&#10;  }&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="1540510937000" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;b&gt;4.&lt;b&gt;Таблица типов&lt;/b&gt;&#10;&#10;  &lt;span class=&quot;wysiwyg-color-blue&quot;&gt;[3 балла]&lt;/span&gt;&lt;/b&gt; &amp;nbsp;Реализуйте программу, печатающую на консоль таблицу&#10;типов Java для long, int, short, byte, double, float, char. Программа должна печатать Min, Max значения и размер в&#10;байтах. Для выравнивания колонок используйте System.out.printf().&#10;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;b&gt;Sample Output 1:&lt;/b&gt;&#10;&lt;pre&gt;&#10;Type        Min                    Max                    Size&#10;Long       -9223372036854775808    9223372036854775807    8&#10;Integer    -2147483648             2147483647             4&#10;Short      -32768                  32767                  2&#10;…&#10;&lt;/pre&gt;&#10;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="5" />
+                            <option name="name" value="task4" />
+                            <option name="status" value="Solved" />
+                            <option name="stepId" value="520924" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/TypesTable.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="name" value="src/TypesTable.java" />
+                                      <option name="text" value="class TypesTable {&#10;  public static void main(String[] args) {&#10;    //put your task here&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/BaseIOValidationTest.java" value="import org.junit.After;&#13;&#10;import org.junit.Before;&#13;&#10;import org.junit.BeforeClass;&#13;&#10;&#13;&#10;import java.io.ByteArrayOutputStream;&#13;&#10;import java.io.PrintStream;&#13;&#10;import java.security.Permission;&#13;&#10;&#13;&#10;public abstract class BaseIOValidationTest {&#13;&#10;  protected ByteArrayOutputStream output = new ByteArrayOutputStream();&#13;&#10;  private final PrintStream old = System.out;&#13;&#10;&#13;&#10;  @BeforeClass&#13;&#10;  public static void init() {&#13;&#10;    //Before running the external Command&#13;&#10;    MySecurityManager secManager = new MySecurityManager();&#13;&#10;    System.setSecurityManager(secManager);&#13;&#10;  }&#13;&#10;&#13;&#10;  @Before&#13;&#10;  public void setUp() {&#13;&#10;    resetOutput();&#13;&#10;  }&#13;&#10;&#13;&#10;  @After&#13;&#10;  public void tearDown() {&#13;&#10;    System.out.flush();&#13;&#10;    System.setOut(old);&#13;&#10;  }&#13;&#10;&#13;&#10;  protected void resetOutput() {&#13;&#10;    output = new ByteArrayOutputStream();&#13;&#10;    System.setOut(new PrintStream(output));&#13;&#10;  }&#13;&#10;&#13;&#10;  public static class TestMsg {&#13;&#10;    private int testId;&#13;&#10;    private String input;&#13;&#10;    private String details;&#13;&#10;&#13;&#10;    private TestMsg(int testId, String input, String details) {&#13;&#10;      this.testId = testId;&#13;&#10;      this.input = input;&#13;&#10;      this.details = details;&#13;&#10;    }&#13;&#10;&#13;&#10;    public static TestMsg of(int testId, String input, String details) {&#13;&#10;      return new TestMsg(testId, input, details);&#13;&#10;    }&#13;&#10;&#13;&#10;    public static TestMsg of(int testId, String[] args, String details) {&#13;&#10;      return new TestMsg(testId, String.join(&quot; &quot;, args), details);&#13;&#10;    }&#13;&#10;&#13;&#10;    @Override&#13;&#10;    public String toString() {&#13;&#10;      return String.format(&#13;&#10;              &quot;Test #%s. Input:\n&quot; +&#13;&#10;                      &quot;%s\n&quot; +&#13;&#10;                      &quot;Details: %s\n&quot;,&#13;&#10;              testId,&#13;&#10;              input,&#13;&#10;              details&#13;&#10;      );&#13;&#10;    }&#13;&#10;  }&#13;&#10;&#13;&#10;  static class MySecurityManager extends SecurityManager {&#13;&#10;    @Override&#13;&#10;    public void checkExit(int status) {&#13;&#10;      throw new SecurityException();&#13;&#10;    }&#13;&#10;&#13;&#10;    @Override&#13;&#10;    public void checkPermission(Permission perm) {&#13;&#10;      // Allow other activities by default&#13;&#10;    }&#13;&#10;  }&#13;&#10;&#13;&#10;&#13;&#10;}&#13;&#10;" />
+                                <entry key="test/TypesTableTest.java" value="import org.junit.Test;&#10;&#10;import java.util.Arrays;&#10;import java.util.List;&#10;import java.util.regex.Pattern;&#10;&#10;import static org.junit.Assert.assertTrue;&#10;&#10;public class TypesTableTest extends BaseIOValidationTest {&#10;  @Test&#10;  public void testSolution1() {&#10;    List&lt;String&gt; patterns = Arrays.asList(&#10;      &quot;^Byte\\s+-128\\s+127\\s+1$&quot;,&#10;      &quot;^Double\\s+4.9E-324\\s+1.7976931348623157E308\\s+8$&quot;,&#10;      &quot;^Long\\s+-9223372036854775808\\s+9223372036854775807\\s+8$&quot;,&#10;      &quot;^Integer\\s+-2147483648\\s+2147483647\\s+4$&quot;,&#10;      &quot;^Short\\s+-32768\\s+32767\\s+2$&quot;,&#10;      &quot;^Float\\s+1.4E-45\\s+3.4028235E38\\s+4$&quot;,&#10;      &quot;&quot;&#10;    );&#10;&#10;    TypesTable.main(new String[] {});&#10;    for (String pattern : patterns) {&#10;      boolean found = Pattern.compile(pattern, Pattern.MULTILINE).matcher(output.toString()).find();&#10;      assertTrue(TestMsg.of(1, &quot;&quot;, String.format(&quot;Pattern was not found in output: %s&quot;, pattern)).toString(), found);&#10;    }&#10;  }&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="1540510954000" />
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="156071" />
+                    </Lesson>
+                  </list>
+                </option>
+              </Section>
+            </list>
+          </option>
+        </RemoteCourse>
+      </option>
+      <option name="VERSION" value="11" />
+      <option name="myUserTests">
+        <map />
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
