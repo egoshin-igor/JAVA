@@ -7,12 +7,12 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class Product {
-    private String _name;
-    private BigDecimal _price;
-    private boolean _isHaveAgeRestriction;
-    private Discount _discount;
+    private final String _name;
+    private final BigDecimal _price;
+    private final boolean _isHaveAgeRestriction;
+    private final Discount _discount;
     private int _units;
-    private UnitType _unitType;
+    private final UnitType _unitType;
 
     public Product(
             String name,

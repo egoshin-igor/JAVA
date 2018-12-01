@@ -5,16 +5,17 @@ import core.types.CustomerType;
 import core.types.PaymentMethod;
 
 import java.math.BigDecimal;
+import java.time.LocalTime;
 import java.util.List;
 import java.util.Random;
 
 public class Customer {
     private final Random _random = new Random();
-    private Basket _basket;
-    private String _name;
-    private CustomerType _type;
+    private final Basket _basket;
+    private final String _name;
+    private final CustomerType _type;
     private BigDecimal _moneyQuantity;
-    private PaymentMethod _paymentMethod;
+    private final PaymentMethod _paymentMethod;
 
     public Customer(
             Basket basket,
@@ -31,10 +32,13 @@ public class Customer {
         _paymentMethod = paymentMethod;
     }
 
-    public void putToBasket(Product product) {
-        Product takenProduct = product.take(_random.nextInt(product.getUnits()) + 1);
+    public void putToBasket(LocalTime localTime, Product product) {
+        int randomInt = product.getUnits() + 1;
+        randomInt = randomInt < 0 ? 0 : randomInt;
+        Product takenProduct = product.take(_random.nextInt(randomInt));
         if (takenProduct.getUnits() != 0) {
             _basket.addProduct(takenProduct);
+            System.out.println(localTime + " Customer " + _name + " picked up " + takenProduct.getTookInfo());
         }
     }
 

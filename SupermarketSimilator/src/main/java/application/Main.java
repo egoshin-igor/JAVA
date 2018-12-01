@@ -9,7 +9,7 @@ import core.domainmodels.supermarket.Report;
 import core.domainmodels.supermarket.Supermarket;
 import core.domainmodels.supermarket.product.Product;
 import core.interfaces.IReport;
-import infrastructure.Generators.CustomertGeneration;
+import infrastructure.Generators.CustomerGeneration;
 import infrastructure.Generators.ProductGeneration;
 
 public class Main {
@@ -17,7 +17,7 @@ public class Main {
         IReport report = new Report();
         Supermarket supermarket = new Supermarket(new CashDesk(new Bill()), report);
         IGeneration<Product> productGeneration = new ProductGeneration();
-        IGeneration<Customer> customerGeneration = new CustomertGeneration();
+        IGeneration<Customer> customerGeneration = new CustomerGeneration();
 
         ISupermarketSimulator supermarketSimulator = new SupermarketSimulator(
                 customerGeneration, productGeneration, supermarket);

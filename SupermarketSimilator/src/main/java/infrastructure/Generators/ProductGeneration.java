@@ -13,7 +13,7 @@ public class ProductGeneration implements IGeneration<Product> {
 
     @Override
     public List<Product> Generate() {
-        List<Product> products = new LinkedList<Product>();
+        List<Product> products = new LinkedList<>();
         products.add(new Product("Lays", BigDecimal.valueOf(111),
                 false, new Discount(20), 22, UnitType.Quantity));
         products.add(new Product("Lays", BigDecimal.valueOf(111),

@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 import java.util.LinkedList;
 import java.util.List;
 
-public class CustomertGeneration implements IGeneration<Customer> {
+public class CustomerGeneration implements IGeneration<Customer> {
     @Override
     public List<Customer> Generate() {
         List<Customer> customers = new LinkedList<>();

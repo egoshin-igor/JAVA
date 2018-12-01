@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Basket {
-    private List<Product> _products;
+    private final List<Product> _products;
 
     public Basket() {
         _products = new LinkedList<>();

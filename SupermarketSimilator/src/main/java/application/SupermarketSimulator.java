@@ -2,24 +2,19 @@ package application;
 
 import application.interfaces.IGeneration;
 import application.interfaces.ISupermarketSimulator;
-import core.domainmodels.customer.Bill;
 import core.domainmodels.customer.Customer;
-import core.domainmodels.supermarket.CashDesk;
-import core.domainmodels.supermarket.Report;
 import core.domainmodels.supermarket.Supermarket;
 import core.domainmodels.supermarket.product.Product;
 
 import java.time.LocalTime;
-import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.List;
 import java.util.Random;
 
 public class SupermarketSimulator implements ISupermarketSimulator {
-    private List<Customer> _customers;
-    private IGeneration<Customer> _customersGeneration;
-    private IGeneration<Product> _productsGeneration;
-    private Supermarket _supermarket;
+    private final List<Customer> _customers;
+    private final IGeneration<Customer> _customersGeneration;
+    private final IGeneration<Product> _productsGeneration;
+    private final Supermarket _supermarket;
 
     SupermarketSimulator(
             IGeneration<Customer> customersGeneration,
@@ -29,7 +24,7 @@ public class SupermarketSimulator implements ISupermarketSimulator {
         _customers = customersGeneration.Generate();
         _customersGeneration = customersGeneration;
         _productsGeneration = productsGeneration;
-        _supermarket = supermarket;;
+        _supermarket = supermarket;
     }
 
     public void SimulateWork() {
@@ -39,7 +34,7 @@ public class SupermarketSimulator implements ISupermarketSimulator {
         _supermarket.addProductsFirstTime(start, _productsGeneration.Generate());
 
         Random random = new Random();
-        int maxPeriod = 4;
+        int maxPeriod = 5;
         _supermarket.open(start);
         while (currentTime.getHour() < end.getHour()) {
             if (_supermarket.isAllCustomersServed() && _customers.size() == 0) {

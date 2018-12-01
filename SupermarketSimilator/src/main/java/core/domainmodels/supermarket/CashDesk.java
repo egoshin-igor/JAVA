@@ -11,19 +11,22 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalTime;
 import java.util.ArrayDeque;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
 public class CashDesk {
-    private Queue<Customer> _customers;
-    private Bill _bill;
+    private final Queue<Customer> _customers;
+    private final Bill _bill;
+    private final List<Product> _retrievedProducts;
 
     public CashDesk(Bill bill) {
         _customers = new ArrayDeque<>();
         _bill = bill;
+        _retrievedProducts = new LinkedList<>();
     }
 
-    void add(Customer customer, LocalTime addTime) {
+    void add(LocalTime addTime, Customer customer) {
         _customers.add(customer);
         toLogAddInfo(addTime, _bill.getBill(customer), customer.getName());
     }
@@ -56,7 +59,7 @@ public class CashDesk {
 
     }
 
-    public boolean isAllCustomersServed() {
+    boolean isAllCustomersServed() {
         return _customers.size() == 0;
     }
 
@@ -66,8 +69,13 @@ public class CashDesk {
             if (product.isHaveAgeRestriction()) {
                 System.out.println(localTime + " Product " + product.getName() + " not allowed for customer");
                 products.remove(product);
+                _retrievedProducts.add(product);
             }
         }
+    }
+
+    public List<Product> returnProductsToShop() {
+        return _retrievedProducts;
     }
 
     private void toLogServeInfo(LocalTime serveTime, BigDecimal price, String name, PaymentMethod paymentMethod) {

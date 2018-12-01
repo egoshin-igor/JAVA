@@ -1,0 +1,6 @@
+application\SupermarketSimulatorTest.class
+core\domainmodels\customer\BasketTest.class
+core\domainmodels\supermarket\CashDeskTest.class
+core\domainmodels\supermarket\SupermarketTest.class
+core\domainmodels\customer\BillTest.class
+core\domainmodels\customer\CustomerTest.class

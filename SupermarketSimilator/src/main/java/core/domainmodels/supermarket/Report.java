@@ -2,7 +2,6 @@ package core.domainmodels.supermarket;
 
 import core.domainmodels.supermarket.product.Product;
 import core.interfaces.IReport;
-import javafx.util.Pair;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -10,22 +9,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Report implements IReport {
-    private List<Product> _products;
+    private final List<Product> _products;
     private BigDecimal _totalRevenue = new BigDecimal(0);
 
     public Report() {
         _products = new LinkedList<>();
-    }
-
-    @Override
-    public void add(Product product) {
-        Product foundProduct = getByName(product.getName());
-        _totalRevenue = _totalRevenue.add(product.getPrice().multiply(BigDecimal.valueOf(product.getUnits())));
-        if (foundProduct != null) {
-            foundProduct.put(product.getUnits());
-        } else {
-            _products.add(product);
-        }
     }
 
     @Override
@@ -41,6 +29,16 @@ public class Report implements IReport {
             System.out.println(product.getSoldInfo());
         }
         System.out.println("Total revenue: " + _totalRevenue.setScale(0, RoundingMode.HALF_UP));
+    }
+
+    private void add(Product product) {
+        Product foundProduct = getByName(product.getName());
+        _totalRevenue = _totalRevenue.add(product.getPrice().multiply(BigDecimal.valueOf(product.getUnits())));
+        if (foundProduct != null) {
+            foundProduct.put(product.getUnits());
+        } else {
+            _products.add(product);
+        }
     }
 
     private Product getByName(String name) {

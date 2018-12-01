@@ -6,8 +6,6 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public class Bill {
-    private final double discountForRetireds = 0.05;
-
     public BigDecimal getBill(Customer customer) {
         List<Product> products = customer.getProductsFromBasket();
         BigDecimal result = new BigDecimal(0);

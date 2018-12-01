@@ -11,11 +11,11 @@ import java.util.List;
 import java.util.Random;
 
 public class Supermarket {
-    Random _random;
-    private CashDesk _cashDesk;
-    private List<Product> _products;
-    private List<Customer> _customers;
-    private IReport _report;
+    private final Random _random;
+    private final CashDesk _cashDesk;
+    private final List<Product> _products;
+    private final List<Customer> _customers;
+    private final IReport _report;
     private boolean _isOpened;
 
     public Supermarket(
@@ -44,6 +44,7 @@ public class Supermarket {
         _isOpened = false;
         _customers.clear();
         System.out.println(localTime + " Supermarket is closed");
+        _products.addAll(_cashDesk.returnProductsToShop());
         _report.printReport();
     }
 
@@ -64,11 +65,10 @@ public class Supermarket {
 
         Customer customer = _customers.get(_random.nextInt(_customers.size()));
         Product product = _products.get(_random.nextInt(_products.size()));
-        customer.putToBasket(product);
+        customer.putToBasket(localTime, product);
         if (product.getUnits() == 0) {
             _products.remove(product);
         }
-        System.out.println(localTime + " Customer " + customer.getName() + " picked up " + product.getTookInfo());
     }
 
     public void someCustomerGoToCashDesk(LocalTime localTime) {
@@ -84,7 +84,7 @@ public class Supermarket {
             return;
         }
 
-        _cashDesk.add(customer, localTime);
+        _cashDesk.add(localTime, customer);
         _customers.remove(customerIndex);
     }
 
@@ -106,6 +106,8 @@ public class Supermarket {
     public boolean isBoughtAllProducts() {
         return _products.size() == 0;
     }
+
+    public boolean isOpened() { return _isOpened; }
 
     private void logProductsCreating() {
         for (Product product : _products) {
