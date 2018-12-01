@@ -1,19 +1,16 @@
 package application;
 
-import application.interfaces.IGeneration;
-import application.interfaces.ISupermarketSimulator;
+import application.interfaces.Generation;
+import application.interfaces.SupermarketSimulator;
 import core.domainmodels.customer.Bill;
 import core.domainmodels.customer.Customer;
 import core.domainmodels.supermarket.CashDesk;
-import core.domainmodels.supermarket.Report;
 import core.domainmodels.supermarket.Supermarket;
 import core.domainmodels.supermarket.product.Product;
-import core.interfaces.IReport;
+import core.interfaces.Report;
 import infrastructure.Generators.CustomerGeneration;
 import infrastructure.Generators.ProductGeneration;
 import org.junit.Test;
-
-import java.lang.reflect.Field;
 
 import static org.junit.Assert.*;
 
@@ -22,12 +19,12 @@ public class SupermarketSimulatorTest {
 
     @Test
     public void simulateWork() {
-        IReport report = new Report();
+        Report report = new core.domainmodels.supermarket.Report();
         Supermarket supermarket = new Supermarket(new CashDesk(new Bill()), report);
-        IGeneration<Customer> customerGeneration = new CustomerGeneration();
-        IGeneration<Product> productGeneration = new ProductGeneration();
+        Generation<Customer> customerGeneration = new CustomerGeneration();
+        Generation<Product> productGeneration = new ProductGeneration();
 
-        ISupermarketSimulator supermarketSimulator = new SupermarketSimulator(
+        SupermarketSimulator supermarketSimulator = new application.SupermarketSimulator(
                 customerGeneration, productGeneration, supermarket);
 
         assertFalse(supermarket.isOpened());

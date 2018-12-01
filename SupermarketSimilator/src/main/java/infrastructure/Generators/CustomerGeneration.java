@@ -1,6 +1,6 @@
 package infrastructure.Generators;
 
-import application.interfaces.IGeneration;
+import application.interfaces.Generation;
 import core.domainmodels.customer.Basket;
 import core.domainmodels.customer.Customer;
 import core.types.CustomerType;
@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 import java.util.LinkedList;
 import java.util.List;
 
-public class CustomerGeneration implements IGeneration<Customer> {
+public class CustomerGeneration implements Generation<Customer> {
     @Override
     public List<Customer> Generate() {
         List<Customer> customers = new LinkedList<>();

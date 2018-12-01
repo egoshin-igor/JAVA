@@ -1,19 +1,18 @@
 package core.domainmodels.supermarket;
 
 import core.domainmodels.supermarket.product.Product;
-import core.interfaces.IReport;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Report implements IReport {
-    private final List<Product> _products;
-    private BigDecimal _totalRevenue = new BigDecimal(0);
+public class Report implements core.interfaces.Report {
+    private final List<Product> products;
+    private BigDecimal totalRevenue = new BigDecimal(0);
 
     public Report() {
-        _products = new LinkedList<>();
+        products = new LinkedList<>();
     }
 
     @Override
@@ -25,24 +24,24 @@ public class Report implements IReport {
 
     @Override
     public void printReport() {
-        for(Product product: _products) {
+        for(Product product: products) {
             System.out.println(product.getSoldInfo());
         }
-        System.out.println("Total revenue: " + _totalRevenue.setScale(0, RoundingMode.HALF_UP));
+        System.out.println("Total revenue: " + totalRevenue.setScale(0, RoundingMode.HALF_UP));
     }
 
     private void add(Product product) {
         Product foundProduct = getByName(product.getName());
-        _totalRevenue = _totalRevenue.add(product.getPrice().multiply(BigDecimal.valueOf(product.getUnits())));
+        totalRevenue = totalRevenue.add(product.getPrice().multiply(BigDecimal.valueOf(product.getUnits())));
         if (foundProduct != null) {
             foundProduct.put(product.getUnits());
         } else {
-            _products.add(product);
+            products.add(product);
         }
     }
 
     private Product getByName(String name) {
-        for (Product product: _products) {
+        for (Product product: products) {
             if (product.getName().equals(name)) {
                 return product;
             }

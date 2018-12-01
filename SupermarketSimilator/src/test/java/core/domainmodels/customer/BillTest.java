@@ -29,6 +29,6 @@ public class BillTest {
         Bill bill = new Bill();
 
         BigDecimal result = bill.getBill(customer);
-        assertEquals(BigDecimal.valueOf(20), result);
+        assertTrue(BigDecimal.valueOf(20).compareTo(result) == 0);
     }
 }

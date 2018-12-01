@@ -39,7 +39,7 @@ public class CustomerTest {
     }
 
     @Test
-    public void putToBasket_productHasUnits_addToBasket() {
+    public void putToBasketProduct_HasUnits_addToBasket() {
         customer.putToBasket(LocalTime.now(), product);
 
         boolean expectedSize = (customer.getProductsFromBasket().size() == 1) ||

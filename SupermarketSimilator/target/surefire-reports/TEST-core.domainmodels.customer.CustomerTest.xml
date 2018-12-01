@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="core.domainmodels.customer.CustomerTest" time="0" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="core.domainmodels.customer.CustomerTest" time="0.161" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="core.domainmodels.customer.CustomerTest" name="putToBasket_productHasUnits_addToBasket" time="0"/>
+  <testcase classname="core.domainmodels.customer.CustomerTest" name="putToBasketProduct_HasUnits_addToBasket" time="0.161"/>
   <testcase classname="core.domainmodels.customer.CustomerTest" name="putToBasket_productHasntUnits_notAddToBasket" time="0"/>
   <testcase classname="core.domainmodels.customer.CustomerTest" name="isEnoughMoney" time="0"/>
   <testcase classname="core.domainmodels.customer.CustomerTest" name="checkCustomerDataCorrection" time="0"/>

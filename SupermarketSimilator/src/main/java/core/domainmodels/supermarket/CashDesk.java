@@ -3,7 +3,7 @@ package core.domainmodels.supermarket;
 import core.domainmodels.customer.Bill;
 import core.domainmodels.customer.Customer;
 import core.domainmodels.supermarket.product.Product;
-import core.interfaces.IReport;
+import core.interfaces.Report;
 import core.types.CustomerType;
 import core.types.PaymentMethod;
 
@@ -16,23 +16,23 @@ import java.util.List;
 import java.util.Queue;
 
 public class CashDesk {
-    private final Queue<Customer> _customers;
-    private final Bill _bill;
-    private final List<Product> _retrievedProducts;
+    private final Queue<Customer> customers;
+    private final Bill bill;
+    private final List<Product> retrievedProducts;
 
     public CashDesk(Bill bill) {
-        _customers = new ArrayDeque<>();
-        _bill = bill;
-        _retrievedProducts = new LinkedList<>();
+        customers = new ArrayDeque<>();
+        this.bill = bill;
+        this.retrievedProducts = new LinkedList<>();
     }
 
     void add(LocalTime addTime, Customer customer) {
-        _customers.add(customer);
-        toLogAddInfo(addTime, _bill.getBill(customer), customer.getName());
+        customers.add(customer);
+        toLogAddInfo(addTime, bill.getBill(customer), customer.getName());
     }
 
-    void serve(LocalTime serveTime, IReport report) {
-        Customer customer = _customers.poll();
+    void serve(LocalTime serveTime, Report report) {
+        Customer customer = customers.poll();
 
         if (customer == null)
             return;
@@ -42,7 +42,7 @@ public class CashDesk {
             checkForRestrictedProducts(customer.getProductsFromBasket(), serveTime);
         }
 
-        BigDecimal price = _bill.getBill(customer);
+        BigDecimal price = bill.getBill(customer);
         if (price.compareTo(BigDecimal.ZERO) == 0) {
             System.out.println(customer.getName() + " nothing to pay");
             return;
@@ -60,7 +60,7 @@ public class CashDesk {
     }
 
     boolean isAllCustomersServed() {
-        return _customers.size() == 0;
+        return customers.size() == 0;
     }
 
     private void checkForRestrictedProducts(List<Product> products, LocalTime localTime) {
@@ -69,13 +69,13 @@ public class CashDesk {
             if (product.isHaveAgeRestriction()) {
                 System.out.println(localTime + " Product " + product.getName() + " not allowed for customer");
                 products.remove(product);
-                _retrievedProducts.add(product);
+                retrievedProducts.add(product);
             }
         }
     }
 
     public List<Product> returnProductsToShop() {
-        return _retrievedProducts;
+        return retrievedProducts;
     }
 
     private void toLogServeInfo(LocalTime serveTime, BigDecimal price, String name, PaymentMethod paymentMethod) {

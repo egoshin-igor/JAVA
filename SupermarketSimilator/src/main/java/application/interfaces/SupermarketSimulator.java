@@ -1,5 +1,5 @@
 package application.interfaces;
 
-public interface ISupermarketSimulator {
+public interface SupermarketSimulator {
     void SimulateWork();
 }

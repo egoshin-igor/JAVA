@@ -2,6 +2,6 @@ package application.interfaces;
 
 import java.util.List;
 
-public interface IGeneration<T> {
+public interface Generation<T> {
     List<T> Generate();
 }

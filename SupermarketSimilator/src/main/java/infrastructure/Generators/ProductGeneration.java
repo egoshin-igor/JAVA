@@ -1,6 +1,6 @@
 package infrastructure.Generators;
 
-import application.interfaces.IGeneration;
+import application.interfaces.Generation;
 import core.domainmodels.supermarket.product.Discount;
 import core.domainmodels.supermarket.product.Product;
 import core.types.UnitType;
@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ProductGeneration implements IGeneration<Product> {
+public class ProductGeneration implements Generation<Product> {
 
     @Override
     public List<Product> Generate() {

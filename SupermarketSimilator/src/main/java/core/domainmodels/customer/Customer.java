@@ -10,12 +10,12 @@ import java.util.List;
 import java.util.Random;
 
 public class Customer {
-    private final Random _random = new Random();
-    private final Basket _basket;
-    private final String _name;
-    private final CustomerType _type;
-    private BigDecimal _moneyQuantity;
-    private final PaymentMethod _paymentMethod;
+    private final Random random = new Random();
+    private final Basket basket;
+    private final String name;
+    private final CustomerType type;
+    private BigDecimal moneyQuantity;
+    private final PaymentMethod paymentMethod;
 
     public Customer(
             Basket basket,
@@ -25,42 +25,42 @@ public class Customer {
             PaymentMethod paymentMethod
             )
     {
-        _basket =basket;
-        _name = name;
-        _type = customerType;
-        _moneyQuantity = moneyQuantity;
-        _paymentMethod = paymentMethod;
+        this.basket = basket;
+        this.name = name;
+        this.type = customerType;
+        this.moneyQuantity = moneyQuantity;
+        this.paymentMethod = paymentMethod;
     }
 
     public void putToBasket(LocalTime localTime, Product product) {
         int randomInt = product.getUnits() + 1;
         randomInt = randomInt < 0 ? 0 : randomInt;
-        Product takenProduct = product.take(_random.nextInt(randomInt));
+        Product takenProduct = product.take(random.nextInt(randomInt));
         if (takenProduct.getUnits() != 0) {
-            _basket.addProduct(takenProduct);
-            System.out.println(localTime + " Customer " + _name + " picked up " + takenProduct.getTookInfo());
+            basket.addProduct(takenProduct);
+            System.out.println(localTime + " Customer " + name + " picked up " + takenProduct.getTookInfo());
         }
     }
 
     public String getName() {
-        return _name;
+        return name;
     }
 
     public boolean isEnoughMoney(BigDecimal price) {
-        return _moneyQuantity.compareTo(price) >= 0;
+        return moneyQuantity.compareTo(price) >= 0;
     }
 
     public void pay(BigDecimal price) {
-        _moneyQuantity = _moneyQuantity.subtract(price);
+        moneyQuantity = moneyQuantity.subtract(price);
     }
 
     public List<Product> getProductsFromBasket() {
-        return _basket.getProducts();
+        return basket.getProducts();
     }
 
     public CustomerType getCustomerType() {
-        return _type;
+        return type;
     }
 
-    public PaymentMethod getPaymentMethod() { return _paymentMethod; }
+    public PaymentMethod getPaymentMethod() { return paymentMethod; }
 }

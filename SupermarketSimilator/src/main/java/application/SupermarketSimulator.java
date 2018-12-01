@@ -1,7 +1,6 @@
 package application;
 
-import application.interfaces.IGeneration;
-import application.interfaces.ISupermarketSimulator;
+import application.interfaces.Generation;
 import core.domainmodels.customer.Customer;
 import core.domainmodels.supermarket.Supermarket;
 import core.domainmodels.supermarket.product.Product;
@@ -10,65 +9,65 @@ import java.time.LocalTime;
 import java.util.List;
 import java.util.Random;
 
-public class SupermarketSimulator implements ISupermarketSimulator {
-    private final List<Customer> _customers;
-    private final IGeneration<Customer> _customersGeneration;
-    private final IGeneration<Product> _productsGeneration;
-    private final Supermarket _supermarket;
+public class SupermarketSimulator implements application.interfaces.SupermarketSimulator {
+    private final List<Customer> customers;
+    private final Generation<Customer> customersGeneration;
+    private final Generation<Product> productsGeneration;
+    private final Supermarket supermarket;
 
     SupermarketSimulator(
-            IGeneration<Customer> customersGeneration,
-            IGeneration<Product> productsGeneration,
+            Generation<Customer> customersGeneration,
+            Generation<Product> productsGeneration,
             Supermarket supermarket
     ) {
-        _customers = customersGeneration.Generate();
-        _customersGeneration = customersGeneration;
-        _productsGeneration = productsGeneration;
-        _supermarket = supermarket;
+        customers = customersGeneration.Generate();
+        this.customersGeneration = customersGeneration;
+        this.productsGeneration = productsGeneration;
+        this.supermarket = supermarket;
     }
 
     public void SimulateWork() {
         final LocalTime start = LocalTime.of(8, 0,0,0);
         final LocalTime end = LocalTime.of(23, 0,0,0);
         LocalTime currentTime = LocalTime.of(start.getHour(), 0,0,0);
-        _supermarket.addProductsFirstTime(start, _productsGeneration.Generate());
+        supermarket.addProductsFirstTime(start, productsGeneration.Generate());
 
         Random random = new Random();
-        int maxPeriod = 5;
-        _supermarket.open(start);
+        int maxPeriod = 4;
+        supermarket.open(start);
         while (currentTime.getHour() < end.getHour()) {
-            if (_supermarket.isAllCustomersServed() && _customers.size() == 0) {
-                _customers.addAll(_customersGeneration.Generate());
+            if (supermarket.isAllCustomersServed() && customers.size() == 0) {
+                customers.addAll(customersGeneration.Generate());
             }
-            if (_supermarket.isBoughtAllProducts()) {
-                _supermarket.addProducts(_productsGeneration.Generate());
+            if (supermarket.isBoughtAllProducts()) {
+                supermarket.addProducts(productsGeneration.Generate());
             }
-            if (_customers.size() != 0) {
-                int customerIndex = random.nextInt(_customers.size());
-                Customer customer = _customers.get(customerIndex);
-                _customers.remove(customerIndex);
+            if (customers.size() != 0) {
+                int customerIndex = random.nextInt(customers.size());
+                Customer customer = customers.get(customerIndex);
+                customers.remove(customerIndex);
 
                 currentTime = currentTime.plusMinutes(random.nextInt(maxPeriod));
                 if (random.nextBoolean()) {
-                    _supermarket.acceptNewCustomer(customer, currentTime);
+                    supermarket.acceptNewCustomer(customer, currentTime);
                 }
             }
 
             currentTime = currentTime.plusMinutes(random.nextInt(maxPeriod));
             if (random.nextBoolean()) {
-                _supermarket.someCustomerHasAddedProductToBasket(currentTime);
+                supermarket.someCustomerHasAddedProductToBasket(currentTime);
             }
 
             currentTime = currentTime.plusMinutes(random.nextInt(maxPeriod));
             if (random.nextBoolean()) {
-                _supermarket.someCustomerGoToCashDesk(currentTime);
+                supermarket.someCustomerGoToCashDesk(currentTime);
             }
 
             currentTime = currentTime.plusMinutes(random.nextInt(maxPeriod));
             if (random.nextBoolean()) {
-                _supermarket.serveSomeCustomer(currentTime);
+                supermarket.serveSomeCustomer(currentTime);
             }
         }
-        _supermarket.close(currentTime);
+        supermarket.close(currentTime);
     }
 }
